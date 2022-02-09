@@ -6,7 +6,6 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "cursing-around:toggle"
   },
   "repository": "https://github.com/atom/cursing-around",
   "license": "MIT",
