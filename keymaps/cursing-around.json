@@ -1,5 +1,10 @@
 {
-  "atom-workspace": {
-    "ctrl-up": "cursing-around:move-last-cursor-up-in-screen"
+  "atom-workspace atom-text-editor:not([mini])": {
+    "up": "cursing-around-screen:move-cursors-up",
+    "alt-up": "cursing-around-screen:move-last-cursor-up",
+    "cmd-up": "cursing-around-screen:add-cursor-up",
+    "ctrl-up": "cursing-around-buffer:move-cursors-up",
+    "ctrl-alt-up": "cursing-around-buffer:move-last-cursor-up",
+    "ctrl-cmd-up": "cursing-around-buffer:add-cursor-up"
   }
 }
