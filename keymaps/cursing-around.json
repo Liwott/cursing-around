@@ -1,4 +1,5 @@
 {
   "atom-workspace": {
+    "ctrl-up": "cursing-around:move-last-cursor-up-in-screen"
   }
 }
