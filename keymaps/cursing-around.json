@@ -1,10 +1,28 @@
 {
   "atom-workspace atom-text-editor:not([mini])": {
     "up": "cursing-around-screen:move-cursors-up",
+    "down": "cursing-around-screen:move-cursors-down",
+    "left": "cursing-around-screen:move-cursors-left",
+    "right": "cursing-around-screen:move-cursors-right",
     "alt-up": "cursing-around-screen:move-last-cursor-up",
+    "alt-down": "cursing-around-screen:move-last-cursor-down",
+    "alt-left": "cursing-around-screen:move-last-cursor-left",
+    "alt-right": "cursing-around-screen:move-last-cursor-right",
     "cmd-up": "cursing-around-screen:add-cursor-up",
+    "cmd-down": "cursing-around-screen:add-cursor-down",
+    "cmd-left": "cursing-around-screen:add-cursor-left",
+    "cmd-right": "cursing-around-screen:add-cursor-right",
     "ctrl-up": "cursing-around-buffer:move-cursors-up",
+    "ctrl-down": "cursing-around-buffer:move-cursors-down",
+    "ctrl-left": "cursing-around-buffer:move-cursors-left",
+    "ctrl-right": "cursing-around-buffer:move-cursors-right",
     "ctrl-alt-up": "cursing-around-buffer:move-last-cursor-up",
-    "ctrl-cmd-up": "cursing-around-buffer:add-cursor-up"
+    "ctrl-alt-down": "cursing-around-buffer:move-last-cursor-down",
+    "ctrl-alt-left": "cursing-around-buffer:move-last-cursor-left",
+    "ctrl-alt-right": "cursing-around-buffer:move-last-cursor-right",
+    "ctrl-cmd-up": "cursing-around-buffer:add-cursor-up",
+    "ctrl-cmd-down": "cursing-around-buffer:add-cursor-down",
+    "ctrl-cmd-left": "cursing-around-buffer:add-cursor-left",
+    "ctrl-cmd-right": "cursing-around-buffer:add-cursor-right"
   }
 }
