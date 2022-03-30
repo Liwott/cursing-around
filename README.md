@@ -1,5 +1,9 @@
 # cursing-around package
 
-A short description of your package.
+A package for multiple cursor management.
+Loosely inspired by [multi-cursor](https://github.com/joseramonc/multi-cursor), the main differences feature-wise being :
+- symmetry between the use of buffer and screen coordinates
+- symmetry between the four directions (hence the `around`)
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+The status is very embryonic.
+Before the package being usable, I need at least `cursing-around-screen:move-cursors-up` to be functionally equivalent to `core:move-up`.
